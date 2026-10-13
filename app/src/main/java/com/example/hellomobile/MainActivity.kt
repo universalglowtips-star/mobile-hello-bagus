@@ -82,6 +82,25 @@ fun ProfilMahasiswaScreen() {
         ) {
             Text("Simpan")
         }
+        Button(
+            onClick = { tersimpan = true },
+            enabled = formValid,
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Text("Simpan")
+        }
+
+        OutlinedButton(
+            onClick = {
+                nama = ""
+                nim = ""
+                prodi = ""
+                tersimpan = false
+            },
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Text("Reset")
+        }
 
         if (!formValid) {
             Text(

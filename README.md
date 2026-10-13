@@ -15,6 +15,7 @@ Aplikasi Android sederhana berupa form profil mahasiswa yang dibuat dengan Jetpa
 - Validasi sederhana: NIM hanya boleh berisi angka, dan tombol Simpan aktif hanya saat semua data terisi dengan benar.
 - Pesan umpan balik saat NIM tidak valid.
 - Kartu profil muncul setelah tombol Simpan ditekan.
+- Tombol Reset untuk mengosongkan semua isian.
 
 ## Konsep yang diterapkan
 - State: remember dan mutableStateOf menyimpan isi form.
